@@ -1,3 +1,27 @@
+macro_cim: macro_cim{
+compatible = "zmk,behavior-macro";
+label = "macro_cim";
+#binding-cells = <0>;
+bindings = <&kp LS(I)>, <&kp K>, <&kp M>, <&kp N8>, <&kp LPAR>, <&kp LS(J)>, <&kp K>, <&kp L>, <&kp N9>, <&kp STAR>, <&kp M>, <&kp N>;
+};
+macro_cim2: macro_cim2{
+compatible = "zmk,behavior-macro";
+label = "macro_cim2";
+#binding-cells = <0>;
+bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp AT>, <&kp N6>, <&kp N7>, <&kp N5>;
+};
+macro_cim1: macro_cim1{
+compatible = "zmk,behavior-macro";
+label = "macro_cim1";
+#binding-cells = <0>;
+bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp N0>, <&kp N1>;
+};
+macro_lambda: macro_lambda{
+compatible = "zmk,behavior-macro";
+label = "macro_lambda";
+#binding-cells = <0>;
+bindings = <&kp LPAR>, <&kp RPAR>, <&kp EQUAL>, <&kp GT>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
@@ -27,10 +51,4 @@ compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
 bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-};
-macro_kinesis: macro_kinesis{
-compatible = "zmk,behavior-macro";
-label = "macro_kinesis";
-#binding-cells = <0>;
-bindings = <&kp K>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
