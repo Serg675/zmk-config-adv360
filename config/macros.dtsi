@@ -2,19 +2,19 @@ macro_cim: macro_cim{
 compatible = "zmk,behavior-macro";
 label = "macro_cim";
 #binding-cells = <0>;
-bindings = <&kp LS(I)>, <&kp K>, <&kp M>, <&kp N8>, <&kp LPAR>, <&kp LS(J)>, <&kp K>, <&kp L>, <&kp N9>, <&kp STAR>, <&kp M>, <&kp N>, <&kp ENTER>;
+bindings = <&kp LS(I)>, <&kp K>, <&kp M>, <&kp N8>, <&kp LPAR>, <&kp LS(J)>, <&kp K>, <&kp L>, <&kp N9>, <&kp STAR>, <&kp M>, <&kp N>;
 };
 macro_cim2: macro_cim2{
 compatible = "zmk,behavior-macro";
 label = "macro_cim2";
 #binding-cells = <0>;
-bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp AT>, <&kp N6>, <&kp N7>, <&kp N5>, <&kp ENTER>;
+bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp AT>, <&kp N6>, <&kp N7>, <&kp N5>;
 };
 macro_cim1: macro_cim1{
 compatible = "zmk,behavior-macro";
 label = "macro_cim1";
 #binding-cells = <0>;
-bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp N0>, <&kp N1>, <&kp ENTER>;
+bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp N0>, <&kp N1>;
 };
 macro_lambda: macro_lambda{
 compatible = "zmk,behavior-macro";
