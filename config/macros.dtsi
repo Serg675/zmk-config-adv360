@@ -1,9 +1,3 @@
-macro_cim: macro_cim{
-compatible = "zmk,behavior-macro";
-label = "macro_cim";
-#binding-cells = <0>;
-bindings = <&kp LS(I)>, <&kp K>, <&kp M>, <&kp N8>, <&kp LPAR>, <&kp LS(J)>, <&kp K>, <&kp L>, <&kp N9>, <&kp STAR>, <&kp M>, <&kp N>;
-};
 macro_cim2: macro_cim2{
 compatible = "zmk,behavior-macro";
 label = "macro_cim2";
